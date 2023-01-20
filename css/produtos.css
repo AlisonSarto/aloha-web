@@ -1,0 +1,102 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cabeçalho {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cabeçalho-img {
+  width: 100%;
+  height: 30vh;
+  min-height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cabeçalho-titulo{
+  position: absolute;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.conteiner-produtos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-item {
+  display: flex;
+  width: 100%;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto-img {
+  width: 90%;
+  max-width: 450px;
+}
+
+.conteiner-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 390px;
+  margin: 0 15px 0 15px;
+}
+
+.conteiner-titulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-1 {
+  font-size: 1.3rem;
+}
+
+.titulo-2 {
+  font-size: 2rem;
+}
+
+.coco, .morango, .maracuja, .melancia, .maçã {
+  font-weight: bold;
+}
+
+.coco, .maçã {
+  color: #75d94a;
+}
+
+.morango, .melancia {
+  color: #fa3c3c;
+}
+
+.maracuja {
+  color: #fbca16;
+}
+
+
+.descrição {
+  font-size: 1.1em;
+  color: white;
+  line-height: 1.2rem;
+  letter-spacing: 1.1px;
+}
+
+@media screen and (max-width:880px) {
+  .conteiner-item {
+    flex-direction: column;
+  }
+}
