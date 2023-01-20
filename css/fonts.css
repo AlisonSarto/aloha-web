@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'codec-regular';
+  src: url(/site/fonts/CodecPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'codec-regular';
+  src: url(/fonts/CodecPro-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'codec-regular';
+  src: url(/fonts/CodecPro-ExtraBold.ttf);
+  font-weight: bold;
+}
