@@ -53,18 +53,12 @@ section {
 .img-grade {
   object-fit: cover;
   object-position: center;
-  width: calc(25% - 10px);
+  width: calc(50% - 5px);
   height: 80vh;
   margin: 5px
 }
 
-@media screen and (max-width:1000px) {
-  .img-grade {
-    width: calc(50% - 10px);
-  }
-}
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   .img-grade {
     width: calc(100% - 5px);
   }
