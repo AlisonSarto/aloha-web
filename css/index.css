@@ -54,6 +54,7 @@ section {
   object-fit: cover;
   object-position: center;
   height: 80vh;
+  width: calc(50% - 20px);
   max-width: min(90vw, 430px);
   max-height: min(100vw, 80vh);
   margin: 5px
