@@ -72,36 +72,3 @@ section {
   font-weight: bold;
   text-align: center;
 }
-
-.conteiner-imgs {
-  display: flex;
-  justify-content: center;  
-  align-items: center;
-}
-
-.apresentação-img {
-  width: 18.5%;
-  filter: grayscale(100%) brightness(97%);
-  transition: all 0.2s;
-}
-
-.apresentação-img:hover {
-  width: 20%;
-  filter: grayscale(0) brightness(100%);
-}
-
-@media screen and (max-width:1000px) {
-  .conteiner-imgs {
-    flex-wrap: wrap;
-  }
-
-  .apresentação-img {
-    width: 50%;
-    max-width: 55vh;
-    filter: grayscale(0) brightness(100%);
-  }
-
-  .apresentação-img:hover {
-    width: 50%;
-  }
-}
