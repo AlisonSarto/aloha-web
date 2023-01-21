@@ -1,13 +1,15 @@
 .conteiner-wabutton {
+  display: flex;
+  flex-direction: row-reverse;
   position: sticky;
   bottom: 5px;
-  float: right;
-  margin-right: 5px;
+  margin: 5px 5px;
 }
 
 .wa-button {
-  width: min(50px, 3vw);
+  width: min(70px, 16vw);
   border-radius: 100px;
+  border: solid 1px #75d94a;
 }
 
 .wa-button:hover {
