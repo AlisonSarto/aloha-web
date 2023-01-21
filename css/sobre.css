@@ -22,7 +22,7 @@ section {
   object-position: center;
 }
 
-.cabeçalho-titulo{
+.cabeçalho-titulo {
   position: absolute;
   font-weight: bold;
   font-size: 2rem;
@@ -71,9 +71,20 @@ section {
   margin-bottom: 30px;
 }
 
-div > .historia-img {
+.historia-img {
   width: 40vw;
+  height: 40vw;
+  max-height: 500px;
   max-width: 500px;
+  object-fit: cover;
+}
+
+#img-1 {
+  object-position: top;
+}
+
+#img-2 {
+  object-position: center;
 }
 
 .historia-2 {
@@ -99,7 +110,7 @@ div > .historia-img {
     margin-bottom: 30px;
   }
 
-  div >.historia-img {
+  .historia-img {
     width: 80vw;
     max-width: 400px;
   }
