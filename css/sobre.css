@@ -62,7 +62,7 @@ section {
 }
 
 .historia-1 > p, .historia-2 > p {
-  font-size: min(4vw, 1.2em);
+  font-size: min(5vw, 1.2em);
   color: gainsboro;
   text-align: center;
 }
