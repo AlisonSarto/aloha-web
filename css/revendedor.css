@@ -26,7 +26,7 @@ section {
 .cabeçalho-titulo{
   position: absolute;
   font-weight: bold;
-  font-size: min(8vw, 2rem);
+  font-size: min(8vw, 1.3rem);
   color: white;
   text-align: center;
 }
