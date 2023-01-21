@@ -1,0 +1,15 @@
+.conteiner-wabutton {
+  position: sticky;
+  bottom: 5px;
+  float: right;
+  margin-right: 5px;
+}
+
+.wa-button {
+  width: min(50px, 3vw);
+  border-radius: 100px;
+}
+
+.wa-button:hover {
+  box-shadow: 0 0 10px #75d94a;
+}
