@@ -39,12 +39,14 @@ section {
   font-size: min(2rem, 5.5vw);
   font-weight: bold;
   line-height: 1.1em;
+  width: 90vw;
   margin-bottom: 20px;
 }
 
 #green {
   color: greenyellow;
-  margin: 20px 0 10px;
+  font-size: min(2.5rem, 6vw);
+  margin-bottom: 5px;
 }
 
 .conteiner-grade {
