@@ -77,6 +77,8 @@
 }
 
 .right-titulo {
+  display: flex;
+  flex-direction: row;
   font-size: 1.1em;
   opacity: 80%;
 }
