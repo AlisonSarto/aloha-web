@@ -6,7 +6,7 @@
   height: 100%;
   padding-top: 20px;
   margin: 15px 0 15px;
-  border-radius: 17px;
+  border-radius: 30px;
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -31,7 +31,7 @@
   align-items: center;
   flex-direction: column;
   width: 33%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .center-links {
@@ -68,7 +68,7 @@
   align-items: center;
   flex-direction: column;
   width: 33%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .right-titulo, .footer-direitos, .termos {
