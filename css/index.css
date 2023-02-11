@@ -78,3 +78,15 @@ section {
   font-weight: bold;
   text-align: center;
 }
+
+/*Pulse NavBar*/
+
+@keyframes pulse {
+  0% {
+    background: transparent;
+  }
+
+  50% {
+    background: rgba(255, 255, 255, 0.276);
+  }
+}
